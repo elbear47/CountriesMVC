@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
 
+using CountriesMVC;
+
+CountryController cc = new CountryController();
+
+cc.WelcomeAction();
